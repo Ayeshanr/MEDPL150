@@ -1,88 +1,39 @@
 body {
-    background-color: #0b0214; /* Extremely dark purple, almost black */
-    color: #e0d0ff;           /* Light, ghostly purple for text */
-    font-family: 'Courier New', Courier, monospace; /* Edgy, typewriter feel */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 40px 20px;
-    margin: 0;
+  background-color: #0d0718;
+  color: #ddd6e8;
+  text-align: center;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 30px;
+  font-size: 22px;
 }
 
 h1 {
-    font-size: 3rem;
-    color: #bc13fe; /* Neon "Rage" Purple */
-    text-shadow: 0 0 10px #bc13fe, 0 0 20px #7b00ff;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+  font-size: 48px;
 }
 
 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    line-height: 1.6;
-    margin-bottom: 25px;
-    border-left: 3px solid #bc13fe; /* Edgy border on text blocks */
-    padding-left: 15px;
-}
-
-.img-container {
-    background-color: #1a0b2e; /* Dark purple container */
-    padding: 10px;
-    border: 2px solid #bc13fe; /* High contrast neon border */
-    box-shadow: 0 0 15px #7b00ff;
-    margin-bottom: 30px;
+  max-width: 1000px;
+  margin: 25px auto;
+  line-height: 1.4;
 }
 
 img {
-    max-width: 600px;
-    width: 100%;
-    display: block;
-    filter: grayscale(20%) contrast(120%); /* Makes images look grittier */
+  width: 720px;
+  max-width: 90%;
+  border: 12px solid #30274f;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: block;
 }
 
-.choice-box-container {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin-top: 40px;
+a {
+  color: #7b2cbf;
+  font-size: 24px;
+  display: block;
+  margin: 25px;
 }
 
-.choice-box {
-    background-color: #240046; /* Deep purple box */
-    width: 280px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #bc13fe;
-    transition: 0.3s;
-}
-
-.choice-box:hover {
-    background-color: #bc13fe;
-    box-shadow: 0 0 20px #bc13fe;
-}
-
-.choice-box a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.4rem;
-    text-shadow: 2px 2px #000;
-}
-
-.choice-box:hover a {
-    color: #000000;
-    text-shadow: none;
-}
-
-.main-page-link {
-    color: #bc13fe;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
+a:hover {
+  color: #c77dff;
 }
