@@ -1,0 +1,57 @@
+body {
+    background-color: #000000; /* Pure black background */
+    color: #ffffff;           /* White text */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centers everything horizontally */
+    text-align: center;     /* Centers the text lines */
+    padding: 50px 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+img {
+    margin: 40px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* The Glowing Blue Button */
+h2 a {
+    color: #2e5bff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    /* This creates the glow effect from your image */
+    text-shadow: 0 0 10px #2e5bff, 0 0 20px #2e5bff; 
+    transition: 0.3s;
+}
+
+h2 a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #2e5bff;
+}
+
+/* The footer link */
+.back-link {
+    margin-top: 30px;
+}
+
+.back-link a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 1rem;
+} 
