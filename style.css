@@ -1,57 +1,88 @@
 body {
-    background-color: #000000; /* Pure black background */
-    color: #ffffff;           /* White text */
-    font-family: 'Arial', sans-serif;
+    background-color: #0b0214; /* Extremely dark purple, almost black */
+    color: #e0d0ff;           /* Light, ghostly purple for text */
+    font-family: 'Courier New', Courier, monospace; /* Edgy, typewriter feel */
     display: flex;
     flex-direction: column;
-    align-items: center;    /* Centers everything horizontally */
-    text-align: center;     /* Centers the text lines */
-    padding: 50px 20px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
     margin: 0;
 }
 
 h1 {
     font-size: 3rem;
-    margin-bottom: 40px;
+    color: #bc13fe; /* Neon "Rage" Purple */
+    text-shadow: 0 0 10px #bc13fe, 0 0 20px #7b00ff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 p {
     font-size: 1.2rem;
     max-width: 800px;
     line-height: 1.6;
-    margin: 10px 0;
+    margin-bottom: 25px;
+    border-left: 3px solid #bc13fe; /* Edgy border on text blocks */
+    padding-left: 15px;
+}
+
+.img-container {
+    background-color: #1a0b2e; /* Dark purple container */
+    padding: 10px;
+    border: 2px solid #bc13fe; /* High contrast neon border */
+    box-shadow: 0 0 15px #7b00ff;
+    margin-bottom: 30px;
 }
 
 img {
-    margin: 40px 0;
-    max-width: 100%;
-    height: auto;
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    filter: grayscale(20%) contrast(120%); /* Makes images look grittier */
 }
 
-/* The Glowing Blue Button */
-h2 a {
-    color: #2e5bff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    /* This creates the glow effect from your image */
-    text-shadow: 0 0 10px #2e5bff, 0 0 20px #2e5bff; 
+.choice-box-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.choice-box {
+    background-color: #240046; /* Deep purple box */
+    width: 280px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bc13fe;
     transition: 0.3s;
 }
 
-h2 a:hover {
-    color: #ffffff;
-    text-shadow: 0 0 20px #ffffff, 0 0 40px #2e5bff;
+.choice-box:hover {
+    background-color: #bc13fe;
+    box-shadow: 0 0 20px #bc13fe;
 }
 
-/* The footer link */
-.back-link {
-    margin-top: 30px;
+.choice-box a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px #000;
 }
 
-.back-link a {
-    color: #ffffff;
-    text-decoration: underline;
-    font-size: 1rem;
-} 
+.choice-box:hover a {
+    color: #000000;
+    text-shadow: none;
+}
+
+.main-page-link {
+    color: #bc13fe;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
